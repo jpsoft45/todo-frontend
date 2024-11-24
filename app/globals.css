@@ -40,3 +40,83 @@ a {
     color-scheme: dark;
   }
 }
+.container{
+  max-width: 736px !important;
+}
+.todo-app {
+  background-color: #121212; /* Dark mode background */
+}
+
+
+.color-circle {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+.color-circle:hover {
+  opacity: 0.8;
+}
+.border-input{
+  border: 1px solid #121212;
+}
+.primary-text{
+color: #4EA8DE;
+}
+.sec-text{
+color: #5F60CE;
+}
+.bg-primary{
+  background: #4EA8DE;
+}
+/**/
+.todo-app-container {
+  background-color: #121212; 
+}
+
+.tasks-container {
+}
+.ronded-count{
+  border-radius: 3px;
+  padding: 0 4px;
+  color: #ffffff;
+  background-color: #121212;
+}
+.list-group-item {
+  background-color: #2b2b2b;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  transition: transform 0.2s;
+}
+
+.completed {
+  opacity: 0.6;
+}
+
+.task-text {
+  font-size: 1rem;
+}
+.list-group-item .text-muted{
+color: #ffffff !important;
+}
+.home-create{
+  transform: translateY(-50%);
+}
+.empty-task{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.empty-task-icon{
+  margin-bottom: 10px;
+  font-size: 80px;
+}
+.empty-task-message{
+  margin-bottom: 20px;
+}
